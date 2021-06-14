@@ -1,0 +1,157 @@
+body {
+    background: none !important;
+}
+
+span {
+    text-shadow: -1px -1px 0 #535353, 1px -1px 0 #535353, -1px 1px 0 #535353, 1px 1px 0 #535353;
+}
+
+hr {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #535353;
+}
+
+.main-wrapper {
+    width: 20%;
+    min-width: 350px;
+}
+
+.border-danger-dark {
+    border-color: #9c2632 !important;
+}
+
+.border-info-dark {
+    border-color: #0aaaca !important;
+}
+
+.bg-aspirin {
+    background-color: #db4d4d !important;
+}
+
+.text-aspirin {
+    color: #db4d4d !important;
+}
+
+.border-aspirin {
+    border-color: #a83a3a !important;
+}
+
+.bg-weed {
+    background-color: #4ddb4d !important;
+}
+
+.text-weed {
+    color: #4ddb4d !important;
+}
+
+.border-weed {
+    border-color: #3aa83a !important;
+}
+
+.bg-steroids {
+    background-color: #e9d630 !important;
+}
+
+.text-steroids {
+    color: #e9d630 !important;
+}
+
+.border-steroids {
+    border-color: #c0b128 !important;
+}
+
+.bg-lsd {
+    background-color: #3090e9 !important;
+}
+
+.text-lsd {
+    color: #3090e9 !important;
+}
+
+.border-lsd {
+    border-color: #2775be !important;
+}
+
+/* .stats {
+    background-color:rgba(36, 36, 36, 0.5);
+} */
+
+h2, h5, .stats span {
+    text-shadow: -1px -1px 0 #353535, 1px -1px 0 #353535, -1px 1px 0 #353535, 1px 1px 0 #353535;
+}
+
+.weapon-img {
+    max-height: 40px;
+}
+
+.progress-bar {
+    min-height: 30px;
+}
+
+.drug-timer {
+    min-height: 15px;
+    max-width: 100px;
+}
+
+.icon {
+    left: -15px;
+    width: 46px;
+    height: 46px;
+    margin-top: -9px;
+    padding-top: 7px;
+}
+
+.icon i {
+    font-size: 25px;
+}
+
+.icon-small {
+    left: -15px;
+    width: 46px;
+    height: 46px;
+    margin-top: -9px;
+    padding-top: 7px;
+}
+
+.icon-small i {
+    font-size: 25px;
+}
+
+.icon-drug {
+    left: -15px;
+    width: 34px;
+    height: 34px;
+    margin-top: -5px;
+    padding-top: 3px;
+}
+
+.icon-drug i {
+    font-size: 18px;
+}
+
+/* .guns, .armour, .aspirin, .weed, .steroids, .lsd {
+    display: none;
+} */
+
+.wantedpoints {
+    display: none;
+}
+
+.icon {
+    text-align: center;
+    font-size: 20px
+}
+
+.expiring {
+    animation: expiring 1.5s linear infinite;
+}
+
+@keyframes expiring {
+    50% {
+      opacity: 0;
+    }
+}
+
+.img-rotate {
+    transform: rotate(-90deg);
+}
