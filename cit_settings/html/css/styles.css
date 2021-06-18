@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+body {
+    background: none !important;
+    /* background-image: url('https://i.redd.it/dwd6qqlhuge11.jpg');
+    background-size: cover; */
+}
+
+h1, h4 {
+    font-family: 'Teko', sans-serif;
+}
+
+tbody th {
+    font-weight: normal;
+}
+
+.bg-header {
+    background-color: #42434d !important;
+}
+
+.bg-content {
+    background-color: #1b1c227c !important;
+}
+
+.ui-header {
+    margin-top: -24px;
+}
+
+.table-rounded {
+    border: none;
+}
+
+.table-rounded thead th {
+    background-color: #3b52fc;
+    border: none;
+}
+
+.table-rounded thead th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.table-rounded thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.table-rounded tbody td {
+    border: none;
+    background-color: #25262c;
+}
+
+.table-rounded tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.table-rounded tbody tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+.selected td {
+    background-color: #34363f !important;
+}
+
+.form-select {
+    background-color: #34363f;
+    background-image: url('../img/dropdown.png');
+    background-size: 35px 35px;
+    background-position: right 0px center;
+}
+
+.input-group-text {
+    background-color: #34363f;
+}
+
+.btn-main {
+    background-color: #3b52fc;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-main:hover {
+    background-color: #586bff;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
